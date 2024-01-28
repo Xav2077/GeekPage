@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background:black;
+    color: white;
+}
+#nave{
+    position: absolute;
+    display: flex;
+    padding: 10px 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+#nave img{
+    width: 100px;
+}
+nav{
+    cursor: pointer;
+}
+nav a{
+    padding: 5px 10px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.main video{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+.main img{
+    position: absolute;
+    top: 30vh;
+    left: 15vw;
+}
+.main p{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 70vh;
+    font-size: 2rem;
+    -webkit-text-stroke: black 1px;
+}
+
+.news{
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    background-image: url(img/wallpaperbetterFondo.jpg);
+    background-repeat: no-respeat;
+    background-size: cover;
+}
+.news > div{
+    width: 70vw;
+    height: 80vh;
+    position: relative;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.news img{
+    width: inherit;
+    height: inherit;
+}
+.hoverr{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+}
+.hoverr:hover{
+    opacity: 1;
+    transition: opacity 300ms;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+.info{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding:50px;
+    overflow: hidden;
+}
+
+.imagenes{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+.imagenes h2{
+    font-size: 2rem;
+}
+.imagenes p{
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one{
+    background-image: url(img/FB_IMG_1704032798545.jpg);
+    background-repeat: no-respeat;
+    background-size: cover;
+    background-position: center;
+}
+.two{
+    background-image: url(img/FB_IMG_1704032801928.jpg);
+    background-repeat: no-respeat;
+    background-size: cover;
+    background-position: center;
+}
+.three{
+    background-image: url(img/FB_IMG_1704032805215.jpg);
+    background-repeat: no-respeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.four{
+    background-image: url(img/FB_IMG_1704032808500.jpg);
+    background-repeat: no-respeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.five{
+    background-image: url(img/FB_IMG_1704032811671.jpg);
+    background-repeat: no-respeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.six{
+    background-image: url(img/FB_IMG_1704032814993.jpg);
+    background-repeat: no-respeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.seven{
+    background-image: url(img/FB_IMG_1704032818226.jpg);
+    background-repeat: no-respeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.eight{
+    background-image: url(img/FB_IMG_1704032821282.jpg);
+    background-repeat: no-respeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.imagenes p:hover{
+    background-color: rgba(0, 0, 0, 0.623);
+    opacity: 1;
+    transition: opacity 500ms;
+}
